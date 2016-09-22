@@ -91,10 +91,10 @@ Offically supported WeChatShare iOS SDK Pod. 官方支持的微信分享SDK. \n�
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "WeChatSDK/SDKExport/*.h"
-  s.exclude_files = "WeChatSDK/SDKExport/**/*"
-  s.vendored_libraries = "WeChatSDK/SDKExport/*.a"
-  # s.public_header_files = "WeChatSDK/SDKExport/**/*.h"
+  s.source_files  = "SDKExport/*.h"
+  # s.exclude_files = "WeChatSDK/SDKExport/**/*"
+  s.vendored_libraries = "SDKExport/*.a"
+  # s.public_header_files = "SDKExport/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -108,7 +108,7 @@ Offically supported WeChatShare iOS SDK Pod. 官方支持的微信分享SDK. \n�
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
 
-   s.preserve_paths = "WeChatSDK/SDKExport/libWeChatSDK.a"
+   s.preserve_paths = "SDKExport/libWeChatSDK.a"
 
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
