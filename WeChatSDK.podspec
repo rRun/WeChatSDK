@@ -92,7 +92,7 @@ Offically supported WeChatShare iOS SDK Pod. 官方支持的微信分享SDK. \n�
   #
 
   s.source_files  = "SDKExport/*.h"
-  s.exclude_files = "SDKExport/**/*.*"
+  s.exclude_files = "SDKExport/**/*"
   s.vendored_libraries = "SDKExport/*.a"
   # s.public_header_files = "SDKExport/**/*.h"
 
