@@ -65,7 +65,7 @@ Offically supported WeChatShare iOS SDK Pod. 官方支持的微信分享SDK. \n�
   #
 
   # s.platform     = :ios
-    s.platform     = :ios, "8.0"
+    s.platform     = :ios, "7.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
