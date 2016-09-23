@@ -118,10 +118,10 @@ Offically supported WeChatShare iOS SDK Pod. 官方支持的微信分享SDK. \n�
   #
 
   # s.framework  = "SomeFramework"
-    s.frameworks = "SystemConfiguration","Security"
+    s.frameworks = "SystemConfiguration","Security","CoreTelephony"
 
   # s.library   = "iconv"
-    s.libraries = "z","sqlite3.0"
+    s.libraries = "z","sqlite3.0","c++"
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
